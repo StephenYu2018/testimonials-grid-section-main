@@ -1,16 +1,18 @@
 
 function TestimonialCard({ content, style }) {
   return (
-    <article>
+    <article className={`${style.gridArea} ${style.backgroundColor}`}>
       <div>
-        <img src={content.pictureURL} />
+        <img src={content.pictureURL} className={`${style.borderColor}`} />
         <div>
-          <h3>{content.fullName}</h3>
-          <p>Verified Graduate</p>
+          <h3 className={`${style.textColor}`}>{content.fullName}</h3>
+          <p className={`${style.textColor}`}>Verified Graduate</p>
         </div>
       </div>
-      <p>{content.title}</p>
-      <blockquote>{content.quote}</blockquote>
+      <p className={`${style.textColor}`}>{content.title}</p>
+      <blockquote className={`${style.textColor}`}>
+        {content.quote}
+      </blockquote>
     </article>
   );
 }
