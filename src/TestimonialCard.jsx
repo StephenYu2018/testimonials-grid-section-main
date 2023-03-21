@@ -3,7 +3,7 @@ function TestimonialCard({ content, style }) {
   return (
     <article className={
       `${style.gridArea} ${style.backgroundColor} px-[2.462rem] pt-[2rem] 
-      pb-[2.462rem]`
+      pb-[2.462rem] rounded-lg`
     }>
       <div className="flex flex-row space-x-[1.231rem]">
         <img src={content.pictureURL}
