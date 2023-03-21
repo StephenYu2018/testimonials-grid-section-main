@@ -12,11 +12,11 @@ function TestimonialCard({ content, style }) {
         }
         />
         <div className="flex flex-col justify-end">
-          <h3 className={`${style.textColor} font-barlow font-semibold text-sm`}>
+          <h3 className={`${style.textColor} font-barlow font-semibold text-[0.86rem] leading-4`}>
             {content.fullName}
           </h3>
           <p className={
-            `${style.textColor} font-barlow font-medium text-xs opacity-50`
+            `${style.textColor} font-barlow font-medium text-[0.74rem] opacity-50`
           }>
             Verified Graduate
           </p>
