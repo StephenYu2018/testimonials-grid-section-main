@@ -12,7 +12,7 @@ function TestimonialCard({ content, style }) {
         }
         />
         <div>
-          <h3 className={`${style.textColor} font-barlow font-semibold text-base`}>
+          <h3 className={`${style.textColor} font-barlow font-semibold text-sm`}>
             {content.fullName}
           </h3>
           <p className={
@@ -23,13 +23,13 @@ function TestimonialCard({ content, style }) {
         </div>
       </div>
       <p className={
-        `${style.textColor} font-barlow font-semibold text-xl leading-tight  
+        `${style.textColor} font-barlow font-semibold text-[1.24rem] leading-[1.2] 
         mt-4`
       }>
         {content.title}
       </p>
       <blockquote className={
-        `${style.textColor} font-barlow font-medium text-sm leading-snug 
+        `${style.textColor} font-barlow font-medium text-[0.85rem] leading-[1.4] 
         opacity-70 mt-5`
       }>
         {content.quote}
