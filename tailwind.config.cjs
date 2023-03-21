@@ -13,6 +13,9 @@ module.exports = {
       'light-gray': 'hsl(0, 0%, 81%)',
       'light-grayish-blue': 'hsl(210, 46%, 95%)'
     },
+    fontFamily: {
+      'barlow': ['\'Barlow Semi Condensed\'', 'sans-serif']
+    },
     extend: {},
   },
   plugins: [],

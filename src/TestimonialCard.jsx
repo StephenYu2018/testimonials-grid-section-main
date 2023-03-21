@@ -5,12 +5,12 @@ function TestimonialCard({ content, style }) {
       <div>
         <img src={content.pictureURL} className={`${style.pictureBorderColor}`} />
         <div>
-          <h3 className={`${style.textColor}`}>{content.fullName}</h3>
-          <p className={`${style.textColor}`}>Verified Graduate</p>
+          <h3 className={`${style.textColor} font-barlow`}>{content.fullName}</h3>
+          <p className={`${style.textColor} font-barlow`}>Verified Graduate</p>
         </div>
       </div>
-      <p className={`${style.textColor}`}>{content.title}</p>
-      <blockquote className={`${style.textColor}`}>
+      <p className={`${style.textColor} font-barlow`}>{content.title}</p>
+      <blockquote className={`${style.textColor} font-barlow`}>
         {content.quote}
       </blockquote>
     </article>
