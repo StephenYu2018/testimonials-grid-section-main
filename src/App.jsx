@@ -2,15 +2,17 @@ import TestimonialCard from "./TestimonialCard";
 
 function App() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen flex flex-col justify-center items-center">
       <header className="hidden">
         <h1>Testimonials Grid Section Component</h1>
       </header>
       <section className="grid-rows-testimonials-default grid-cols-1 
-      gap-testimonials-y">
+      gap-testimonials-y w-[324px]">
         <h2 className="hidden">Testimonials</h2>
         {cards().map((card) => 
-          <TestimonialCard content={card.content} style={card.style} />)
+          <TestimonialCard key={card.content.fullName}
+          content={card.content} 
+          style={card.style} />)
         }
       </section>
     </main>
