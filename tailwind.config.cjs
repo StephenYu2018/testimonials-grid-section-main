@@ -16,7 +16,14 @@ module.exports = {
     fontFamily: {
       'barlow': ['\'Barlow Semi Condensed\'', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        'testimonials-default': '34.154rem 18.308rem 17.077rem 29.538rem 33.692rem'
+      },
+      gap: {
+        'testimonials-y': '1.846rem'
+      }
+    },
   },
   plugins: [],
 }
