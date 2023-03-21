@@ -7,9 +7,9 @@ function TestimonialCard({ content, style }) {
       'opaque': 'text-light-gray'
     },
     dark: {
-      'opacity-50': 'text-very-dark-blackish-blue/50',
-      'opacity-70': 'text-very-dark-blackish-blue/70',
-      'opaque': 'text-very-dark-blackish-blue'
+      'opacity-50': 'text-very-dark-grayish-blue/50',
+      'opacity-70': 'text-very-dark-grayish-blue/70',
+      'opaque': 'text-very-dark-grayish-blue'
     },
   };
 
