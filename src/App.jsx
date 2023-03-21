@@ -42,7 +42,7 @@ function cards() {
         gridArea: 'row-span-1 col-span-1',
         backgroundColor: 'bg-moderate-violet',
         textColor: 'light',
-        pictureBorderColor: 'border-light-gray/30'
+        pictureBorderColor: 'border-light-gray/40'
       }
     },
     {
