@@ -1,5 +1,5 @@
 
-function TestimonialCard({ content, style }) {
+function TestimonialCard({ index, content, style }) {
   const textColor = {
     light: {
       'opacity-50': 'text-light-gray/50',
@@ -13,11 +13,13 @@ function TestimonialCard({ content, style }) {
     },
   };
 
+  const quoteTextSize = index === 0 ? 'text-[0.85rem]' : 'text-[0.806rem]'
+
   return (
     <article className={
       `${style.gridArea} ${style.backgroundColor} px-8 pt-[1.625rem] 
       pb-8 rounded-lg first-of-type:bg-quote-svg bg-no-repeat 
-      bg-[right_1.437rem_top] space-y-4`
+      bg-[right_1.437rem_top] space-y-4 first-of-type:group/card`
     }>
       <div className="flex flex-row items-center space-x-4">
         <img src={content.pictureURL}
@@ -46,7 +48,7 @@ function TestimonialCard({ content, style }) {
       </p>
       <blockquote className={
         `${textColor[style.textColor]['opacity-70']} font-barlow font-medium 
-        text-[0.85rem] leading-[1.4]`
+        ${quoteTextSize} leading-[1.4]`
       }>
         {content.quote}
       </blockquote>
