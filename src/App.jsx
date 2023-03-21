@@ -23,6 +23,7 @@ function cards() {
   return [
     {
       content: {
+        pictureURL: './images/image-daniel.jpg',
         fullName: 'Daniel Clifford',
         title: `I received a job offer mid-course, and the subjects I learned 
         were current, if not more so, in the company I joined. I honestly feel 
