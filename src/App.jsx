@@ -2,7 +2,8 @@ import TestimonialCard from "./TestimonialCard";
 
 function App() {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center">
+    <main className="min-h-screen flex flex-col justify-center items-center 
+    bg-light-grayish-blue">
       <header className="hidden">
         <h1>Testimonials Grid Section Component</h1>
       </header>
