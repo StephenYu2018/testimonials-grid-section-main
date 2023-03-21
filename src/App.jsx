@@ -39,7 +39,7 @@ function cards() {
       style: {
         gridArea: 'row-span-1 col-span-1',
         backgroundColor: 'bg-moderate-violet',
-        textColor: 'text-light-gray',
+        textColor: 'light',
         pictureBorderColor: 'border-light-gray/30'
       }
     }
