@@ -2,14 +2,13 @@
 function TestimonialCard({ content, style }) {
   return (
     <article className={
-      `${style.gridArea} ${style.backgroundColor} px-[2.461rem] pt-[2rem] 
-      pb-[2.461rem] rounded-lg`
+      `${style.gridArea} ${style.backgroundColor} px-8 pt-[1.625rem] 
+      pb-8 rounded-lg`
     }>
-      <div className="flex flex-row items-center space-x-[1.231rem]">
+      <div className="flex flex-row items-center space-x-4">
         <img src={content.pictureURL}
         className={
-          `${style.pictureBorderColor} border-2 w-[2.462rem] h-[2.462rem] 
-          rounded-full`
+          `${style.pictureBorderColor} border-2 w-8 h-8 rounded-full`
         }
         />
         <div>
@@ -25,13 +24,13 @@ function TestimonialCard({ content, style }) {
       </div>
       <p className={
         `${style.textColor} font-barlow font-semibold text-xl leading-tight  
-        mt-[1.769rem]`
+        mt-4`
       }>
         {content.title}
       </p>
       <blockquote className={
         `${style.textColor} font-barlow font-medium text-sm leading-snug 
-        opacity-70 mt-[1.538rem]`
+        opacity-70 mt-5`
       }>
         {content.quote}
       </blockquote>
