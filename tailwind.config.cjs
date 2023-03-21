@@ -18,11 +18,8 @@ module.exports = {
     },
     extend: {
       gridTemplateRows: {
-        'testimonials-default': '34.154rem 18.308rem 17.077rem 29.538rem 33.692rem'
+        'testimonials-default': '27.75rem 14.875rem 13.875rem 24rem 27.375rem'
       },
-      gap: {
-        'testimonials-y': '1.846rem'
-      }
     },
   },
   plugins: [],

@@ -7,7 +7,7 @@ function App() {
         <h1>Testimonials Grid Section Component</h1>
       </header>
       <section className="grid-rows-testimonials-default grid-cols-1 
-      gap-testimonials-y w-[324px]">
+      gap-y-6 w-[20.25rem]">
         <h2 className="hidden">Testimonials</h2>
         {cards().map((card) => 
           <TestimonialCard key={card.content.fullName}
