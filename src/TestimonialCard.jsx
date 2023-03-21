@@ -14,8 +14,8 @@ function TestimonialCard({ content, style }) {
           <p className={`${style.textColor} font-barlow`}>Verified Graduate</p>
         </div>
       </div>
-      <p className={`${style.textColor} font-barlow`}>{content.title}</p>
-      <blockquote className={`${style.textColor} font-barlow`}>
+      <p className={`${style.textColor} font-barlow mt-[1.769rem]`}>{content.title}</p>
+      <blockquote className={`${style.textColor} font-barlow mt-[1.538rem]`}>
         {content.quote}
       </blockquote>
     </article>
