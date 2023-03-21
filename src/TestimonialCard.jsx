@@ -13,7 +13,7 @@ function TestimonialCard({ index, content, style }) {
     },
   };
 
-  const quoteTextSize = index === 0 ? 'text-[0.85rem]' : 'text-[0.806rem]'
+  const quoteRightPadding = index === 0 ? 'pr-4 ' : '';
 
   return (
     <article className={
@@ -48,7 +48,7 @@ function TestimonialCard({ index, content, style }) {
       </p>
       <blockquote className={
         `${textColor[style.textColor]['opacity-70']} font-barlow font-medium 
-        ${quoteTextSize} leading-[1.4]`
+        text-[0.806rem] ${quoteRightPadding}leading-[1.4]`
       }>
         {content.quote}
       </blockquote>
