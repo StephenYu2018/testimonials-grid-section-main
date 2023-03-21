@@ -11,7 +11,7 @@ function TestimonialCard({ content, style }) {
           `${style.pictureBorderColor} border-2 w-8 h-8 rounded-full`
         }
         />
-        <div>
+        <div className="flex flex-col justify-end">
           <h3 className={`${style.textColor} font-barlow font-semibold text-sm`}>
             {content.fullName}
           </h3>
