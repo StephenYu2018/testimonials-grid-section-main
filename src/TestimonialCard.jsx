@@ -1,7 +1,10 @@
 
 function TestimonialCard({ content, style }) {
   return (
-    <article className={`${style.gridArea} ${style.backgroundColor}`}>
+    <article className={
+      `${style.gridArea} ${style.backgroundColor} px-[2.462rem] pt-[2rem] 
+      pb-[2.462rem]`
+    }>
       <div>
         <img src={content.pictureURL}
         className={`${style.pictureBorderColor} border-2 w-auto h-auto rounded-full`}
