@@ -11,14 +11,17 @@ module.exports = {
       'very-dark-blackish-blue': 'hsl(219, 29%, 14%)',
       'white': 'hsl(0, 0%, 100%)',
       'light-gray': 'hsl(0, 0%, 81%)',
-      'light-grayish-blue': 'hsl(210, 46%, 95%)'
+      'light-grayish-blue': 'hsl(210, 46%, 95%)',
     },
     fontFamily: {
-      'barlow': ['\'Barlow Semi Condensed\'', 'sans-serif']
+      'barlow': ['\'Barlow Semi Condensed\'', 'sans-serif'],
     },
     extend: {
+      backgroundImage: {
+        'quote-svg': 'url(\'./images/bg-pattern-quotation.svg\')',
+      },
       gridTemplateRows: {
-        'testimonials-default': '27.75rem 14.875rem 13.875rem 24rem 27.375rem'
+        'testimonials-default': '27.75rem 14.875rem 13.875rem 24rem 27.375rem',
       },
     },
   },
