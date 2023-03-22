@@ -110,8 +110,8 @@ const cards = [
       textColor: 'dark',
       pictureBorderColor: 'border-white',
       quoteRightPadding: '',
-      spaceBetweenProfileAndTitle: 'mt-[1rem] xl:mt-[1rem]',
-      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.33rem]'
+      spaceBetweenProfileAndTitle: 'xl:mt-[1rem]',
+      spaceBetweenTitleAndQuote: 'xl:mt-[1.33rem]'
     }
   },
 ];
