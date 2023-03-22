@@ -34,12 +34,12 @@ function TestimonialCard({ index, content, style }) {
         />
         <div className="flex flex-col justify-end">
           <h3 className={`${textColor[style.textColor].opaque} font-barlow
-          font-medium text-[0.86rem] leading-4`}>
+          font-medium text-[0.8rem] leading-4`}>
             {content.fullName}
           </h3>
           <p className={
             `${textColor[style.textColor]['opacity-50']} font-barlow
-            font-medium text-[0.74rem]`
+            font-medium text-[0.68rem]`
           }>
             Verified Graduate
           </p>
