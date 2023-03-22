@@ -17,7 +17,7 @@ const cards = [
       a Software Engineer at a VR startup. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1',
+      gridArea: 'row-span-1 col-span-1 xl:col-[1_/_span_2]',
       backgroundColor: 'bg-moderate-violet',
       textColor: 'light',
       pictureBorderColor: 'border-light-gray/40'
@@ -33,7 +33,7 @@ const cards = [
       best investments I’ve made in myself. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1',
+      gridArea: 'row-span-1 col-span-1 xl:col-[3]',
       backgroundColor: 'bg-very-dark-grayish-blue',
       textColor: 'light',
       pictureBorderColor: 'border-very-dark-grayish-blue'
@@ -48,7 +48,7 @@ const cards = [
       really enjoy, and make a good living while doing something I love. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1',
+      gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[1]',
       backgroundColor: 'bg-white',
       textColor: 'dark',
       pictureBorderColor: 'border-white'
@@ -69,7 +69,7 @@ const cards = [
       amazing people. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1',
+      gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[2_/_span_2]',
       backgroundColor: 'bg-very-dark-blackish-blue',
       textColor: 'light',
       pictureBorderColor: 'border-moderate-violet'
@@ -93,7 +93,7 @@ const cards = [
       developer after receiving multiple offers. 100% recommend! ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1',
+      gridArea: 'row-span-1 col-span-1 xl:row-span-2 xl:col-[4]',
       backgroundColor: 'bg-white',
       textColor: 'dark',
       pictureBorderColor: 'border-white'
@@ -109,8 +109,10 @@ function App() {
         <h1>Testimonials Grid Section Component</h1>
       </header>
       <section className="grid
-      grid-rows-[27.75rem_14.875rem_14rem_24rem_27.375rem] grid-cols-1
-      gap-y-6 w-[20.25rem]">
+      grid-rows-[27.75rem_14.875rem_14rem_24rem_27.375rem]
+      xl:grid-rows-[17.625rem_16.625rem] grid-cols-1
+      xl:grid-cols-[repeat(4,_15.9375rem)] xl:gap-x-[1.8125rem]
+      gap-y-6 xl:gap-y-[1.4375rem]">
         <h2 className="hidden">Testimonials</h2>
         {cards.map((card, index) => 
           <TestimonialCard key={card.content.fullName}
