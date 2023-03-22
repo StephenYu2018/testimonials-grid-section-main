@@ -1,5 +1,5 @@
 
-function TestimonialCard({ index, content, style }) {
+function TestimonialCard({ content, style }) {
   const textColor = {
     light: {
       'opacity-50': 'text-light-gray/50',
@@ -12,8 +12,6 @@ function TestimonialCard({ index, content, style }) {
       'opaque': 'text-very-dark-grayish-blue'
     },
   };
-
-  const quoteRightPadding = index === 0 ? 'pr-4 ' : '';
 
   const cardShadow = style.backgroundColor === 'bg-white'
     ? 'shadow-[45px_50px_50px_-50px_rgb(0,0,0,0.25)]'
@@ -53,7 +51,7 @@ function TestimonialCard({ index, content, style }) {
       </p>
       <blockquote className={
         `${textColor[style.textColor]['opacity-70']} font-barlow font-medium
-        text-[0.806rem] ${quoteRightPadding}leading-[1.4]`
+        text-[0.806rem] ${style.quoteRightPadding}leading-[1.4]`
       }>
         {content.quote}
       </blockquote>

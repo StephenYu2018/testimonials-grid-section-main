@@ -20,7 +20,8 @@ const cards = [
       gridArea: 'row-span-1 col-span-1 xl:col-[1_/_span_2]',
       backgroundColor: 'bg-moderate-violet',
       textColor: 'light',
-      pictureBorderColor: 'border-light-gray/40'
+      pictureBorderColor: 'border-light-gray/40',
+      quoteRightPadding: 'pr-4 xl:pr-0 '
     }
   },
   {
@@ -36,7 +37,8 @@ const cards = [
       gridArea: 'row-span-1 col-span-1 xl:col-[3]',
       backgroundColor: 'bg-very-dark-grayish-blue',
       textColor: 'light',
-      pictureBorderColor: 'border-very-dark-grayish-blue'
+      pictureBorderColor: 'border-very-dark-grayish-blue',
+      quoteRightPadding: ''
     }
   },
   {
@@ -51,7 +53,8 @@ const cards = [
       gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[1]',
       backgroundColor: 'bg-white',
       textColor: 'dark',
-      pictureBorderColor: 'border-white'
+      pictureBorderColor: 'border-white',
+      quoteRightPadding: 'xl:pr-2 '
     }
   },
   {
@@ -72,7 +75,8 @@ const cards = [
       gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[2_/_span_2]',
       backgroundColor: 'bg-very-dark-blackish-blue',
       textColor: 'light',
-      pictureBorderColor: 'border-moderate-violet'
+      pictureBorderColor: 'border-moderate-violet',
+      quoteRightPadding: 'xl:pr-2 '
     }
   },
   {
@@ -96,7 +100,8 @@ const cards = [
       gridArea: 'row-span-1 col-span-1 xl:row-span-2 xl:col-[4]',
       backgroundColor: 'bg-white',
       textColor: 'dark',
-      pictureBorderColor: 'border-white'
+      pictureBorderColor: 'border-white',
+      quoteRightPadding: ''
     }
   },
 ];
