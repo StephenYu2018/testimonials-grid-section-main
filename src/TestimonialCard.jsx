@@ -44,14 +44,15 @@ function TestimonialCard({ content, style }) {
       </div>
       <p className={
         `${textColor[style.textColor].opaque} font-barlow font-semibold
-        text-[1.25rem] leading-[1.2] ${style.spaceBetweenProfileAndTitle}`
+        text-[1.24rem] xl:text-[1.25rem] leading-[1.2]
+        mt-[0.8rem] ${style.spaceBetweenProfileAndTitle}`
       }>
         {content.title}
       </p>
       <blockquote className={
         `${textColor[style.textColor]['opacity-70']} font-barlow font-medium
         text-[0.806rem] ${style.quoteRightPadding}leading-[1.4]
-        ${style.spaceBetweenTitleAndQuote}`
+        mt-[0.8rem] ${style.spaceBetweenTitleAndQuote}`
       }>
         {content.quote}
       </blockquote>

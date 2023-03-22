@@ -22,8 +22,8 @@ const cards = [
       textColor: 'light',
       pictureBorderColor: 'border-light-gray/40',
       quoteRightPadding: 'pr-4 xl:pr-0 ',
-      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1rem]',
-      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1rem]'
+      spaceBetweenProfileAndTitle: 'xl:mt-[1rem]',
+      spaceBetweenTitleAndQuote: 'xl:mt-[1rem]'
     }
   },
   {
@@ -41,8 +41,8 @@ const cards = [
       textColor: 'light',
       pictureBorderColor: 'border-very-dark-grayish-blue',
       quoteRightPadding: '',
-      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1rem]',
-      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1rem]'
+      spaceBetweenProfileAndTitle: 'xl:mt-[1rem]',
+      spaceBetweenTitleAndQuote: 'xl:mt-[1rem]'
     }
   },
   {
@@ -59,8 +59,8 @@ const cards = [
       textColor: 'dark',
       pictureBorderColor: 'border-white',
       quoteRightPadding: 'xl:pr-2 ',
-      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1.2rem]',
-      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.2rem]'
+      spaceBetweenProfileAndTitle: 'xl:mt-[1.2rem]',
+      spaceBetweenTitleAndQuote: 'xl:mt-[1.2rem]'
     }
   },
   {
@@ -83,8 +83,8 @@ const cards = [
       textColor: 'light',
       pictureBorderColor: 'border-moderate-violet',
       quoteRightPadding: 'xl:pr-2 ',
-      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1.2rem]',
-      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.2rem]'
+      spaceBetweenProfileAndTitle: 'xl:mt-[1.2rem]',
+      spaceBetweenTitleAndQuote: 'xl:mt-[1.2rem]'
     }
   },
   {
@@ -110,7 +110,7 @@ const cards = [
       textColor: 'dark',
       pictureBorderColor: 'border-white',
       quoteRightPadding: '',
-      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1rem]',
+      spaceBetweenProfileAndTitle: 'mt-[1rem] xl:mt-[1rem]',
       spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.33rem]'
     }
   },
@@ -125,7 +125,7 @@ function App() {
       </header>
       <section className="grid
       grid-rows-[27.75rem_14.875rem_14rem_24rem_27.375rem]
-      xl:grid-rows-[17.625rem_16.625rem] grid-cols-1
+      xl:grid-rows-[17.625rem_16.625rem] grid-cols-[20.25rem]
       xl:grid-cols-[repeat(4,_15.9375rem)] xl:gap-x-[1.8125rem]
       gap-y-6 xl:gap-y-[1.4375rem]">
         <h2 className="hidden">Testimonials</h2>
