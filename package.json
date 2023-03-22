@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://stephenyu2018.github.io/testimonials-grid-section-main",
+  "homepage": "https://stephenyu2018.github.io/testimonials-grid-section-main/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
