@@ -15,10 +15,9 @@ function App() {
       md:grid-cols-[repeat(2,_20.25rem)] xl:grid-cols-[repeat(4,_15.9375rem)]
       md:gap-x-[1.8125rem] gap-y-6 xl:gap-y-[1.4375rem]">
         <h2 className="hidden">Testimonials</h2>
-        {cards.map((card, index) => 
+        {cards.map(card => 
           <TestimonialCard key={card.content.fullName}
-          index={index}
-          content={card.content} 
+          content={card.content}
           style={card.style} />)
         }
       </section>
