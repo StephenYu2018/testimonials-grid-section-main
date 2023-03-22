@@ -20,9 +20,6 @@ module.exports = {
       backgroundImage: {
         'quote-svg': 'url(\'./images/bg-pattern-quotation.svg\')',
       },
-      gridTemplateRows: {
-        'testimonials-default': '27.75rem 14.875rem 14rem 24rem 27.375rem',
-      },
     },
   },
   plugins: [],

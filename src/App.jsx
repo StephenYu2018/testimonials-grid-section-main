@@ -108,7 +108,8 @@ function App() {
       <header className="hidden">
         <h1>Testimonials Grid Section Component</h1>
       </header>
-      <section className="grid grid-rows-testimonials-default grid-cols-1
+      <section className="grid
+      grid-rows-[27.75rem_14.875rem_14rem_24rem_27.375rem] grid-cols-1
       gap-y-6 w-[20.25rem]">
         <h2 className="hidden">Testimonials</h2>
         {cards.map((card, index) => 
