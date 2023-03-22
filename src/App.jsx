@@ -10,10 +10,8 @@ function App() {
       </header>
       <section className="grid
       grid-rows-[27.75rem_14.875rem_14rem_24rem_27.375rem]
-      md:grid-rows-[26rem_0.25rem_14.875rem_14rem]
       xl:grid-rows-[17.625rem_16.625rem] grid-cols-[20.25rem]
-      md:grid-cols-[repeat(2,_20.25rem)] xl:grid-cols-[repeat(4,_15.9375rem)]
-      md:gap-x-[1.8125rem] gap-y-6 xl:gap-y-[1.4375rem]">
+      xl:grid-cols-[repeat(4,_15.9375rem)] gap-y-6 xl:gap-y-[1.4375rem]">
         <h2 className="hidden">Testimonials</h2>
         {cards.map(card => 
           <TestimonialCard key={card.content.fullName}

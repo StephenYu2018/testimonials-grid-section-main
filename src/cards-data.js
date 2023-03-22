@@ -15,7 +15,7 @@ export const cards = [
       a Software Engineer at a VR startup. ”`
     },
     style: {
-      gridArea: 'row-span-1 md:row-[1_/_span_2] xl:row-[1] col-[1] xl:col-[1_/_span_2]',
+      gridArea: `row-span-1 xl:row-[1] col-[1] xl:col-[1_/_span_2]`,
       backgroundColor: 'bg-moderate-violet',
       textColor: 'light',
       pictureBorderColor: 'border-light-gray/40',
@@ -34,7 +34,7 @@ export const cards = [
       best investments I’ve made in myself. ”`
     },
     style: {
-      gridArea: 'row-span-1 md:row-[3] xl:row-[1] col-span-1 md:col-[1] xl:col-[3]',
+      gridArea: `row-span-1 xl:row-[1] col-span-1 xl:col-[3]`,
       backgroundColor: 'bg-very-dark-grayish-blue',
       textColor: 'light',
       pictureBorderColor: 'border-very-dark-grayish-blue',
@@ -52,7 +52,7 @@ export const cards = [
       really enjoy, and make a good living while doing something I love. ”`
     },
     style: {
-      gridArea: 'row-span-1 md:row-[4] xl:row-[2] col-span-1 md:col-[1] xl:col-[1] xl:py-[1.625rem]',
+      gridArea: `row-span-1 xl:row-[2] col-span-1 xl:col-[1] xl:py-[1.625rem]`,
       backgroundColor: 'bg-white',
       textColor: 'dark',
       pictureBorderColor: 'border-white',
@@ -76,7 +76,8 @@ export const cards = [
       amazing people. ”`
     },
     style: {
-      gridArea: 'row-span-1 md:row-[1] xl:row-[2] col-span-1 md:col-[2] xl:col-[2_/_span_2] xl:py-[1.625rem]',
+      gridArea: `row-span-1 xl:row-[2] col-span-1 xl:col-[2_/_span_2]
+      xl:py-[1.625rem]`,
       backgroundColor: 'bg-very-dark-blackish-blue',
       textColor: 'light',
       pictureBorderColor: 'border-moderate-violet',
@@ -103,7 +104,8 @@ export const cards = [
       developer after receiving multiple offers. 100% recommend! ”`
     },
     style: {
-      gridArea: 'row-span-1 md:row-[2_/_span_3] xl:row-[1_/_span_2] col-span-1 md:col-[2] xl:col-[4] xl:py-[1.625rem]',
+      gridArea: `row-span-1 xl:row-[1_/_span_2] col-span-1 xl:col-[4]
+      xl:py-[1.625rem]`,
       backgroundColor: 'bg-white',
       textColor: 'dark',
       pictureBorderColor: 'border-white',
