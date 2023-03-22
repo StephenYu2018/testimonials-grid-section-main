@@ -103,7 +103,7 @@ const cards = [
 
 function App() {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center 
+    <main className="min-h-screen flex flex-col justify-center items-center
     bg-light-grayish-blue py-[4.4375rem]">
       <header className="hidden">
         <h1>Testimonials Grid Section Component</h1>
