@@ -21,8 +21,7 @@ function TestimonialCard({ content, style }) {
     <article className={
       `${style.gridArea} ${style.backgroundColor} px-8 pt-[1.625rem]
       pb-8 rounded-lg first-of-type:bg-quote-svg bg-no-repeat
-      bg-[right_1.437rem_top] xl:bg-[right_5rem_top] space-y-[0.8rem]
-      ${cardShadow}`
+      bg-[right_1.437rem_top] xl:bg-[right_5rem_top] ${cardShadow}`
     }>
       <div className="flex flex-row items-center space-x-4">
         <img src={content.pictureURL}
@@ -45,13 +44,14 @@ function TestimonialCard({ content, style }) {
       </div>
       <p className={
         `${textColor[style.textColor].opaque} font-barlow font-semibold
-        text-[1.24rem] leading-[1.2]`
+        text-[1.24rem] leading-[1.2] ${style.spaceBetweenProfileAndTitle}`
       }>
         {content.title}
       </p>
       <blockquote className={
         `${textColor[style.textColor]['opacity-70']} font-barlow font-medium
-        text-[0.806rem] ${style.quoteRightPadding}leading-[1.4]`
+        text-[0.806rem] ${style.quoteRightPadding}leading-[1.4]
+        ${style.spaceBetweenTitleAndQuote}`
       }>
         {content.quote}
       </blockquote>

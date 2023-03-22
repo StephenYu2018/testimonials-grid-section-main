@@ -17,11 +17,13 @@ const cards = [
       a Software Engineer at a VR startup. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1 xl:col-[1_/_span_2] xl:space-y-[1rem]',
+      gridArea: 'row-span-1 col-span-1 xl:col-[1_/_span_2]',
       backgroundColor: 'bg-moderate-violet',
       textColor: 'light',
       pictureBorderColor: 'border-light-gray/40',
-      quoteRightPadding: 'pr-4 xl:pr-0 '
+      quoteRightPadding: 'pr-4 xl:pr-0 ',
+      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1rem]',
+      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1rem]'
     }
   },
   {
@@ -34,11 +36,13 @@ const cards = [
       best investments I’ve made in myself. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1 xl:col-[3] xl:space-y-[1rem]',
+      gridArea: 'row-span-1 col-span-1 xl:col-[3]',
       backgroundColor: 'bg-very-dark-grayish-blue',
       textColor: 'light',
       pictureBorderColor: 'border-very-dark-grayish-blue',
-      quoteRightPadding: ''
+      quoteRightPadding: '',
+      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1rem]',
+      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1rem]'
     }
   },
   {
@@ -50,11 +54,13 @@ const cards = [
       really enjoy, and make a good living while doing something I love. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[1] xl:py-[1.625rem] xl:space-y-[1.2rem]',
+      gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[1] xl:py-[1.625rem]',
       backgroundColor: 'bg-white',
       textColor: 'dark',
       pictureBorderColor: 'border-white',
-      quoteRightPadding: 'xl:pr-2 '
+      quoteRightPadding: 'xl:pr-2 ',
+      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1.2rem]',
+      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.2rem]'
     }
   },
   {
@@ -72,11 +78,13 @@ const cards = [
       amazing people. ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[2_/_span_2] xl:py-[1.625rem] xl:space-y-[1.2rem]',
+      gridArea: 'row-span-1 col-span-1 xl:row-[2] xl:col-[2_/_span_2] xl:py-[1.625rem]',
       backgroundColor: 'bg-very-dark-blackish-blue',
       textColor: 'light',
       pictureBorderColor: 'border-moderate-violet',
-      quoteRightPadding: 'xl:pr-2 '
+      quoteRightPadding: 'xl:pr-2 ',
+      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1.2rem]',
+      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.2rem]'
     }
   },
   {
@@ -97,11 +105,13 @@ const cards = [
       developer after receiving multiple offers. 100% recommend! ”`
     },
     style: {
-      gridArea: 'row-span-1 col-span-1 xl:row-span-2 xl:col-[4] xl:space-y-[1.2rem]',
+      gridArea: 'row-span-1 col-span-1 xl:row-span-2 xl:col-[4] xl:py-[1.625rem]',
       backgroundColor: 'bg-white',
       textColor: 'dark',
       pictureBorderColor: 'border-white',
-      quoteRightPadding: ''
+      quoteRightPadding: '',
+      spaceBetweenProfileAndTitle: 'mt-[0.8rem] xl:mt-[1rem]',
+      spaceBetweenTitleAndQuote: 'mt-[0.8rem] xl:mt-[1.33rem]'
     }
   },
 ];
