@@ -14,7 +14,7 @@ function TestimonialCard({ content, style }) {
   };
 
   const cardShadow = style.backgroundColor === 'bg-white'
-    ? 'shadow-[45px_50px_50px_-50px_rgb(0,0,0,0.25)]'
+    ? 'shadow-[40px_55px_50px_-50px_rgb(0,0,0,0.25)]'
     : 'shadow-none';
 
   return (
