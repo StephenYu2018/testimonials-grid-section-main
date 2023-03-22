@@ -44,7 +44,7 @@ function TestimonialCard({ content, style }) {
       </div>
       <p className={
         `${textColor[style.textColor].opaque} font-barlow font-semibold
-        text-[1.24rem] leading-[1.2] ${style.spaceBetweenProfileAndTitle}`
+        text-[1.25rem] leading-[1.2] ${style.spaceBetweenProfileAndTitle}`
       }>
         {content.title}
       </p>
