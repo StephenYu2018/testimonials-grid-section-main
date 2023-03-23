@@ -1,7 +1,13 @@
+import danielImageURL from '../images/image-daniel.jpg';
+import jonathanImageURL from '../images/image-jonathan.jpg';
+import jeanetteImageURL from '../images/image-jeanette.jpg';
+import patrickImageURL from '../images/image-patrick.jpg';
+import kiraImageURL from '../images/image-kira.jpg';
+
 export const cards = [
   {
     content: {
-      pictureURL: './images/image-daniel.jpg',
+      pictureURL: danielImageURL,
       fullName: 'Daniel Clifford',
       title: `I received a job offer mid-course, and the subjects I learned 
       were current, if not more so, in the company I joined. I honestly feel 
@@ -26,7 +32,7 @@ export const cards = [
   },
   {
     content: {
-      pictureURL: './images/image-jonathan.jpg',
+      pictureURL: jonathanImageURL,
       fullName: 'Jonathan Walters',
       title: 'The team was very supportive and kept me motivated',
       quote: `“ I started as a total newbie with virtually no coding skills. 
@@ -45,7 +51,7 @@ export const cards = [
   },
   {
     content: {
-      pictureURL: './images/image-jeanette.jpg',
+      pictureURL: jeanetteImageURL,
       fullName: 'Jeanette Harmon',
       title: 'An overall wonderful and rewarding experience',
       quote: `“ Thank you for the wonderful experience! I now have a job I 
@@ -63,7 +69,7 @@ export const cards = [
   },
   {
     content: {
-      pictureURL: './images/image-patrick.jpg',
+      pictureURL: patrickImageURL,
       fullName: 'Patrick Abrams',
       title: `Awesome teaching support from TAs who did the bootcamp 
       themselves. Getting guidance from them and learning from their 
@@ -88,7 +94,7 @@ export const cards = [
   },
   {
     content: {
-      pictureURL: './images/image-kira.jpg',
+      pictureURL: kiraImageURL,
       fullName: 'Kira Whittle',
       title: 'Such a life-changing experience. Highly recommended!',
       quote: `“ Before joining the bootcamp, I’ve never written a line of 
