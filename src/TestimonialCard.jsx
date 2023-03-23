@@ -2,9 +2,9 @@
 function TestimonialCard({ content, style }) {
   const textColor = {
     light: {
-      'opacity-50': 'text-light-gray/50',
-      'opacity-70': 'text-light-gray/70',
-      'opaque': 'text-light-gray'
+      'opacity-50': 'text-white/50',
+      'opacity-70': 'text-white/70',
+      'opaque': 'text-white'
     },
     dark: {
       'opacity-50': 'text-very-dark-grayish-blue/50',
