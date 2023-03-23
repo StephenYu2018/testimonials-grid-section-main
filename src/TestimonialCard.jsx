@@ -25,6 +25,7 @@ function TestimonialCard({ content, style }) {
     }>
       <div className="flex flex-row items-center space-x-4">
         <img src={content.pictureURL}
+        alt={`${content.fullName}'s profile picture`}
         className={
           `${style.pictureBorderColor} border-2 w-8 h-8 rounded-full`
         }
