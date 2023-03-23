@@ -1,4 +1,3 @@
-import _ from '../images/bg-pattern-quotation.svg';
 
 function TestimonialCard({ content, style }) {
   const textColor = {

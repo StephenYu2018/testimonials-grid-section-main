@@ -1,8 +1,8 @@
-import danielImageURL from '../images/image-daniel.jpg';
-import jonathanImageURL from '../images/image-jonathan.jpg';
-import jeanetteImageURL from '../images/image-jeanette.jpg';
-import patrickImageURL from '../images/image-patrick.jpg';
-import kiraImageURL from '../images/image-kira.jpg';
+import danielImageURL from '../public/image-daniel.jpg';
+import jonathanImageURL from '../public/image-jonathan.jpg';
+import jeanetteImageURL from '../public/image-jeanette.jpg';
+import patrickImageURL from '../public/image-patrick.jpg';
+import kiraImageURL from '../public/image-kira.jpg';
 
 export const cards = [
   {

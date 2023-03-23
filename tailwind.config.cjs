@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'quote-svg': 'url(\'./images/bg-pattern-quotation.svg\')',
+        'quote-svg': 'url(\'./public/bg-pattern-quotation.svg\')',
       },
     },
   },
