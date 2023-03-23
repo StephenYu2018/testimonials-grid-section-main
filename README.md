@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Add solution URL here]()
+- [Solution URL](https://www.frontendmentor.io/solutions/testimonials-grid-vite-react-tailwindcss-hMVEbaZX1l)
 - [Live Site URL](https://gorgeous-tarsier-00fdbc.netlify.app/)
 
 ## My process
