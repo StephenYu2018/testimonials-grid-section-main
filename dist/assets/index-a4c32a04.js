@@ -76,8 +76,8 @@ Error generating stack: `+o.message+`
       experience. It certainly helped me land a job as a full-stack 
       developer after receiving multiple offers. 100% recommend! ”`},style:{gridArea:`row-span-1 xl:row-[1_/_span_2] col-span-1 xl:col-[4]
       xl:py-[1.625rem]`,backgroundColor:"bg-white",textColor:"dark",pictureBorderColor:"border-white",quoteRightPadding:"",spaceBetweenProfileAndTitle:"xl:mt-[1rem]",spaceBetweenTitleAndQuote:"xl:mt-[1.33rem]"}}];function Fd(){return En("main",{className:`min-h-screen flex flex-col justify-center items-center\r
-    bg-light-grayish-blue py-[4.4375rem]`,children:[Pe("header",{className:"hidden",children:Pe("h1",{children:"Testimonials Grid Section Component"})}),En("section",{className:`grid\r
+    bg-light-grayish-blue py-[4.4375rem]`,children:[Pe("header",{className:"fixed top-[-99rem] left-[-99rem]",children:Pe("h1",{children:"Testimonials Grid Section Component"})}),En("section",{className:`grid\r
       grid-rows-[27.75rem_14.875rem_14rem_24rem_27.375rem]\r
       xl:grid-rows-[17.625rem_16.625rem] grid-cols-[20.25rem]\r
       xl:grid-cols-[repeat(4,_15.9375rem)] xl:gap-x-[1.8125rem]\r
-      gap-y-6 xl:gap-y-[1.4375rem]`,children:[Pe("h2",{className:"hidden",children:"Testimonials"}),Ld.map(e=>Pe(Td,{content:e.content,style:e.style},e.content.fullName))]})]})}Xl.createRoot(document.getElementById("root")).render(Pe(wc.StrictMode,{children:Pe(Fd,{})}));
+      gap-y-6 xl:gap-y-[1.4375rem]`,children:[Pe("h2",{className:"fixed top-[-99rem] left-[-99rem]",children:"Testimonials"}),Ld.map(e=>Pe(Td,{content:e.content,style:e.style},e.content.fullName))]})]})}Xl.createRoot(document.getElementById("root")).render(Pe(wc.StrictMode,{children:Pe(Fd,{})}));
